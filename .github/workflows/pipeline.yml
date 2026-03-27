@@ -15,7 +15,6 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           cache: 'maven'
-	
       # LỚP BẢO VỆ 1: QUÉT NHANH
       # Mục tiêu: Phát hiện ngay lập tức các từ khóa "nguy hiểm" đã biết
       - name: Layer 1 - Custom Script Scan (Fast Fail)
